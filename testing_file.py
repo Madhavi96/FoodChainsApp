@@ -172,8 +172,8 @@ class Handler:
         self.path=storeFolder
         #self.start_date = int((start.split('-')[-1]))
         #self.end_date =int((end.split('-')[-1]))
-        self.times=["201810","201811","201812","201901","201902","201903","201904"]
-        self.months = {"201810":"October 2018","201811":"November 2018","201812":"Decemebr 2018","201901":"January 2019","201902":"February 2019","201903":"March 2019","201904":"April 2019"}
+        self.times=["201810","201811","201812","201901","201902","201903","201904","201905","201906"]
+        self.months = {"201810":"October 2018","201811":"November 2018","201812":"Decemebr 2018","201901":"January 2019","201902":"February 2019","201903":"March 2019","201904":"April 2019","201905":"May 2019","201906":"June 2019"}
         self.start = self.times.index(start)
         self.end = self.times.index(end)
 
