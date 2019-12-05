@@ -22,7 +22,7 @@ spacy==2.0.18
 svm==0.1.0
 testpath==0.4.2
 tweepy==3.7.0
-urllib3==1.24.1
+urllib3==1.24.2
 virtualenv==16.6.0
 Werkzeug==0.14.1
 wikipedia==1.4.0
