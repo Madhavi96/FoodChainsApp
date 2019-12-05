@@ -24,6 +24,6 @@ testpath==0.4.2
 tweepy==3.7.0
 urllib3==1.24.1
 virtualenv==16.6.0
-Werkzeug==0.14.1
+Werkzeug==0.15.3
 wikipedia==1.4.0
 wikipedia2vec==1.0.1
