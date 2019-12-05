@@ -111,12 +111,13 @@ def upload():
             print(path)
             file.save(os.path.join(path, filename))
             
-
+	    '''	
             app.config['TEMP_FOLDER'] = 'Temp'
             
             file.save(os.path.join('Temp', filename))
 
             path=get_file_path(field)
+	    '''
 
             preprocessTweets(tweetdate=tweetdate,file=filename,storeFolder=path)
             
@@ -187,7 +188,6 @@ def testpy():
         except FileNotFoundError:
             path = get_file_path(field)
             Handler(storeFolder=path, start=start_date, end=end_date).handle()
-	        print("sssss")
             getdict = getPlot()
             dataseries = getdict["datalist"]
             articles = findArticles(field, dataseries)
