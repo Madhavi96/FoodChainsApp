@@ -185,8 +185,9 @@ def testpy():
 
 
         except FileNotFoundError:
-            path = get_file_path(storeinfolder)
+            path = get_file_path(field)
             Handler(storeFolder=path, start=start_date, end=end_date).handle()
+	        print("sssss")
             getdict = getPlot()
             dataseries = getdict["datalist"]
             articles = findArticles(field, dataseries)
