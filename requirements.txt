@@ -9,7 +9,7 @@ html5lib==1.0.1
 Jinja2==2.10
 lmdb==0.94
 nltk==3.4
-numpy==1.16.1
+numpy==1.22.0
 oauthlib==3.0.1
 packaging==19.0
 pandas==0.24.1
